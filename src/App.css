@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-image: linear-gradient(rgb(129, 219, 239), rgb(240, 141, 195),rgb(236, 219, 228));
+  min-height: 150vh;
+  min-width:10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+
+.title{
+  position: absolute;
+  top: 30px;
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  text-shadow: 2px 2px #0ca1bb;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn{
+    position: absolute;
+    top: 150px;
+    width:300px;
+    height: 60px;
+    color: black;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+  .btn1{
+    left: 350px;
+  }
+  .btn2{
+    left: 900px;
+  }
+  .btn:hover{
+    background-color: rgba(111, 142, 142, 0.842);
+  }
+  .box1{
+    position: absolute;
+    left: 100px;
+    top:300px;
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+  .fun_comp{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  .ext{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box2{
+    position: absolute;
+    left: 800px;
+    top:300px;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(174, 93, 180);
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    .App-header {
+      background-image: linear-gradient(rgb(208, 239, 129), rgb(43, 89, 95),rgb(159, 27, 97));
+    }
+    .btn{
+    background-color: rgb(29, 113, 113);
+  }
+  .btn1{
+    top: 200px;
+    left:30px;
+  }
+  .btn2{
+    top: 300px;
+    left:30px;
+  }
+  .box1{
+    left:30px;
+    top:400px;
+    width:300px;
+    height: 250px;
+    background-color: rgb(157, 116, 11);
+  }
+  .box2{
+    left: 30px;
+    top:700px;
+    width:300px;
+    height: 250px;
+    background-color: rgb(87, 46, 90);
+  }
+  .fun_comp{
+    font-size: 30px;
+  }
+  }
+  
+  
+  
